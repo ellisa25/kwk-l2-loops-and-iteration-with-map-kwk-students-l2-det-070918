@@ -1,5 +1,5 @@
 // Code your solution in this file.
-function lowerCaseStudentDrivers (list){
+function lowerCaseStudentNames (list){
   return list.map(function(driver){
     return driver.toLowerCase();
   });
