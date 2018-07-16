@@ -1,3 +1,6 @@
 // Code your solution in this file.
-function lowerCaseStudentNames ('Adele', 'Beyonce', 'Lady', 'Madonna', 'Rihanna', 'Taylor')
-var lowerCaseStudentNames = 
+function lowerCaseStudentNames (list){
+  return list.map(function(driver){
+    return driver.toLowerCase();
+  });
+}
