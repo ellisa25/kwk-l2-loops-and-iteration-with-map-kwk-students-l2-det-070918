@@ -4,3 +4,4 @@ function lowerCaseStudentNames (list){
     return driver.toLowerCase();
   });
 }
+function nameToAttributes ()
