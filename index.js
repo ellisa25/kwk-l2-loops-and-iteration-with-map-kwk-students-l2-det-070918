@@ -6,6 +6,6 @@ function lowerCaseStudentNames (list){
 }
 function nameToAttributes (list){
   return list.map(function(driver){
-    return driver.nameToAttributes()
+    return driver.nameToAttributes();
   })
 }
