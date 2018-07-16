@@ -11,4 +11,6 @@ function nameToAttributes (list){
     return {firstName: fName, lName: lName};
  });
 }
-function attributesToPhrase
+function attributesToPhrase (list){
+  return list.map(function) 
+}
